@@ -1,0 +1,210 @@
+body{
+    font-family: "Poppins", sans-serif !important;
+    background: rgb(91,103,254);
+    background: linear-gradient(0deg, rgba(91,103,254,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.color-secondary{
+    color: #5B67FE !important;
+}
+.bg-color-secondary{
+    color: #5B67FE !important;
+}
+.color-primary{
+    color: #13BFFE !important;
+}
+.bg-color-primary{
+    color: #13BFFE !important;
+}
+
+.p-remove {
+    padding: 0px !important;
+}
+
+.m-remove{
+    margin: 0px !important;
+}
+
+.yellow{
+    color: #E8A50F !important;
+}
+.border-none{
+    border: none !important;
+}
+.bg-yellow{
+    background-color: #E8A50F !important;
+}
+
+.text-14{
+    font-size: 14px !important;
+}
+
+.text-16{
+    font-size: 16px !important;
+}
+.text-24{
+    font-size: 24px !important;
+}
+.text-36{
+    font-size: 36px !important;
+}
+.text-48{
+    font-size: 48px !important;
+}
+.text-64{
+    font-size: 64px !important;
+}
+
+.r-5{
+    border-radius: 5px !important;
+}
+.r-10{
+    border-radius: 10px !important;
+}
+.r-100{
+    border-radius: 100px !important;
+}
+
+.pt-10{
+    padding-top: 10px !important;
+}
+.pt-20{
+    padding-top: 20px !important;
+}
+.pt-30{
+    padding-top: 30px !important;
+}
+.pt-50{
+    padding-top: 50px !important;
+}
+.pt-80{
+    padding-top: 80px !important;
+}
+.mt-10{
+    margin-top: 10px !important;
+}
+.mt-20{
+    margin-top: 20px !important;
+}
+.mt-30{
+    margin-top: 30px !important;
+}
+.mt-50{
+    margin-top: 50px !important;
+}
+.mt-80{
+    margin-top: 80px !important;
+}
+
+.mx-10{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+.mx-20{
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+.mx-30{
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+.mx-50{
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+.mx-80{
+    margin-top: 80px !important;
+    margin-bottom: 80px !important;
+}
+
+.card{
+    border-radius: 20px !important;
+}
+
+
+
+
+.header{
+    background-image: url('../bg-header.png');
+    background-repeat: no-repeat !important;
+    background-size: cover;
+}
+.customer-get-header{
+    height: 500px !important;
+    background-image: url('../asset-1.png');
+    background-repeat: no-repeat !important;
+    background-size: contain;
+}
+
+@media only screen and (min-width: 992px) {
+    .vertical-center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+   .header{
+        height: 700px !important;
+        margin-top: -71px !important;
+   }
+}
+@media only screen and (max-width: 768px) {
+    .header{
+        height: 500px !important;
+   }
+   .vertical-center {
+        margin: 0;
+        position: relative;
+        top: 30%;
+    }
+   .navbar{
+        background-color: #5B67FE !important;
+   }
+
+   .text-16{
+        font-size: 12px !important;
+    }
+    .text-24{
+        font-size: 16px !important;
+    }
+    .text-36{
+        font-size: 36px !important;
+    }
+    .text-48{
+        font-size: 48px !important;
+    }
+    .text-64{
+        font-size: 48px !important;
+    }
+
+    .whatismetroverse{
+        margin-top: 20% !important;
+    }
+    .banner-metroverse{
+        width: 100% !important;
+    }
+
+    .customer-get-header{
+        margin-top: 20% !important;
+        
+    }
+    .card-customer-get{
+        margin-bottom: 5% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 30rem !important;
+    }
+
+    .footer{
+        margin-top: 100% !important;
+    }
+
+    .footer-feat {
+        text-align: left !important;
+    }
+
+    .footer-copyright{
+        text-align: center !important;
+    }
+}
