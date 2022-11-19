@@ -162,6 +162,10 @@ body{
         background-color: #5B67FE !important;
    }
 
+   .card-text{
+    font-size: 12px !important;
+   }
+
    .text-16{
         font-size: 12px !important;
     }
@@ -197,7 +201,7 @@ body{
     }
 
     .footer{
-        margin-top: 100% !important;
+        margin-top: 500px !important;
     }
 
     .footer-feat {
