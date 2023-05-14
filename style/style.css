@@ -1,0 +1,296 @@
+body {
+    font-family: 'Poppins', "Sigmar", sans-serif;
+  }
+
+  
+
+.primary-color {
+    color: #B9976E !important;
+}
+.bg-primary-color {
+    background-color: #B9976E !important;
+    /* color: Colo; */
+}
+.primary-light-color {
+    color: #ccb79d !important;
+}
+.bg-primary-light-color {
+    background-color: #ccb79d !important;
+    /* color: Colo; */
+}
+.secondary-color {
+    color: #3A6D58 !important;
+}
+.bg-secondary-color {
+    background-color: #3A6D58 !important;
+    /* color: Colo; */
+}
+
+.btn{
+    border: none !important;
+    border-radius: 5px !important;
+}
+
+.banner-ayo{
+    margin-top: 35% !important;
+}
+.headline-ayo{
+    color: rgb(227, 153, 48) !important;
+    font-weight: bold !important;
+    -webkit-text-stroke-color: rgb(255, 0, 0);
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.fCaveat{
+    font-family: 'Caveat' !important;
+}
+.f-sigmar{
+    font-family: 'Sigmar' !important;
+}
+.f-Ultra{
+    font-family: 'Ultra' !important;
+}
+
+.content-why{
+    font-weight: normal !important;
+}
+
+.row{
+    margin: 0px !important;
+}
+
+.nav-link{
+    font-weight: bold !important;
+}
+
+
+#banner{
+    margin-top: -70px !important;
+    height: 800px;
+    
+    background-image: url('/banner-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-content{
+    margin-top: 10% !important;
+    /* margin-left: 10% !important; */
+}
+
+.label-join{
+    font-size: 20px !important;
+}
+
+.brand-name{
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.5px;
+    color: rgb(103, 74, 34) !important;
+    font-size: 30px !important;
+    margin-left: 170px !important;
+}
+
+#logo-why{
+    margin-top: 2% !important;
+}
+
+#why-mrli-section{
+    background-color: #ccb79d !important;
+    padding-top: 5% !important;
+}
+
+.why-mrli-section-title{
+    padding-bottom: 5% !important;
+}
+
+.why-mrli-section-description{
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+    background-color: #ccb79d !important;
+}
+
+.why-mrli-img-number{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 20% !important;
+}
+
+.why-mrli-card{
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.why-mrli-card .card-body .card-title{
+    font-family: 'Sigmar' !important;
+    font-weight: bold !important;
+}
+
+.why-mrli{
+    font-size: 40px !important;
+    font-weight: bold;
+    margin-top: 50px !important;
+    font-family: 'Sigmar' !important;
+}
+.why-mrli-subtitle{
+    font-weight: bold;
+    font-family: 'Poppins' !important;
+}
+
+.card-title{
+    font-weight: bold !important;
+}
+
+#packet-title{
+    margin-top: 5% !important;
+    margin-bottom: 2% !important;
+}
+
+#paket{
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+}
+#syarat_ketentuan_content{
+    background-color: #ccb79d !important;
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+}
+
+.card-syarat{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    background-color: #ccb79d !important;
+    margin-top: 10px !important;
+    box-shadow: 1px 1px 18px rgb(99, 99, 99) !important;
+    border: none !important;
+    font-family: 'Sigmar' !important;
+}
+
+.list-group-item-paket{
+    border: none !important;
+    padding: 0px !important;
+    margin-top: 10px !important;
+}
+
+.card-paket{
+    height: 100% !important;
+    border: none !important;
+    box-shadow: 5px 10px 18px rgb(226, 226, 226) !important;
+}
+
+.list-bullet{
+    list-style-type: none !important;
+}
+
+.list-bullet li::before {
+    content: ">";
+    font-weight: bold;
+    display: inline-block;
+    width: 15px;
+  }
+.list-paket{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+#tahap{
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+}
+
+.title{
+    font-weight: bold !important;
+    font-family: 'Sigmar' !important;
+}
+.syarat-subtitle{
+    margin-bottom: 5% !important;
+}
+
+.img-visi-misi{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#tentang{
+    padding: 10% 0 10% 0 !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  #banner{
+    margin-top: 20% !important;
+    height: 550px !important;
+}
+
+.headline-banner{
+    font-size: 20px !important;
+}
+
+.logo-tentang{
+    width: 50% !important;
+}
+
+  .mapouter{
+    width: 100% !important;
+  }
+  .gmap_canvas{
+    width: 100% !important;
+  }
+
+  .p-5{
+    padding: 3px !important;
+  }
+
+  #why-mrli-section{
+    padding-top: 50px !important;
+  }
+
+    .title{
+        font-size: 20px !important;
+    }
+
+    .subtitle{
+        font-size: 10px !important;
+    }
+
+    #tahap{
+        padding-top: 50px !important;
+    }
+    #paket{
+        padding-top: 50px !important;
+    }
+    #syarat_ketentuan_content{
+        padding-top: 50px !important;
+    }
+
+    #visimisi{
+        
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+    #visimisi *{
+        text-align: center !important;
+    }
+    #hubungi-kami{
+        
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .contact{
+        padding-top: 50px !important;
+    }
+
+    .footer-left{
+        display: none !important;
+    }
+
+    .footer-right{
+        text-align:  center !important;
+    }
+}
