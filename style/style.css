@@ -116,6 +116,14 @@ body {
     margin-right: auto !important;
     width: 20% !important;
 }
+.img-gallery{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important;
+    height: 100% !important;
+   
+}
 
 .why-mrli-card{
     background-color: transparent !important;
