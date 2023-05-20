@@ -62,14 +62,16 @@ body {
 .nav-link{
     font-weight: bold !important;
 }
-
+.navbar{
+    background-color: transparent !important;
+}
 
 #banner{
-    margin-top: -70px !important;
+    margin-top: 0px !important;
     height: 800px;
     
-    background-image: url('/banner-3.jpg');
-    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(114, 114, 114, 0.52), rgba(34, 34, 34, 0.73)),
+        url('/banner-2.jpeg') !important;
     background-size: cover;
 }
 .banner-content{
@@ -215,6 +217,38 @@ body {
     padding: 10% 0 10% 0 !important;
 }
 
+.headline-banner{
+    font-size: 50px !important;
+    margin-top: 10px !important;
+    color: white !important;
+    -webkit-text-stroke: 4px #2e2e2e;
+    /* text-stroke: 4px navy; */
+}
+.headline-medium{
+    font-size: 30px !important;
+    color: #ff8c00 !important;
+    -webkit-text-stroke: 1px #ffffff;
+}
+
+.btn-join{
+    font-size: 20px !important;
+
+}
+
+.td-overline{
+    text-decoration: line-through !important;
+    font-family: 'Poppins' !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+}
+
+.card-paket{
+    background-image: linear-gradient(to right, #ccb79d , #e4a65a);
+}
+
+.list-group-item-paket{
+    background-color: transparent !important;
+}
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
@@ -226,8 +260,11 @@ body {
     padding: 0px !important;
     margin: 10px !important;
   }
-
+  .navbar{
+    background-color: #ccb79d !important;
+  }
     #banner{
+
         padding-top: 20% !important;
         margin-top: 20% !important;
         height: 700px !important;
@@ -237,12 +274,15 @@ body {
     }
 
 .headline-banner{
-    font-size: 20px !important;
+    font-size: 25px !important;
     color: white !important;
+    -webkit-text-stroke: 2px #2e2e2e;
 }
 
 .headline-medium{
-    color: white !important;
+    font-size: 20px !important;
+    color: #fff427 !important;
+    -webkit-text-stroke: 0.5px #1d1d1d;
 }
 
 .logo-tentang{
