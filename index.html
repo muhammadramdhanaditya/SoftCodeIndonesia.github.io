@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./css/styles.css">
   </head>
-  <body>
+  <body id="#home">
     <nav class="navbar navbar-expand-lg bg-body-light py-5">
       <div class="container">
         <a class="navbar-brand" href="#"><img src="./assets/images/logo.jpeg" alt="Bootstrap" width="30" height="24"></a>
@@ -17,25 +17,25 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto gap-3">
-            <a class="fs-6 nav-link active" aria-current="page" href="/index.html">Home</a>
-            <a class="fs-6 nav-link" href="#">Berita</a>
-            <a class="fs-6 nav-link" href="layanan.html">Layanan</a>
-            <a class="fs-6 nav-link" href="/daftar.html">Antrian</a>
-            <a class="fs-6 nav-link" href="#">Tentang Kami</a>
+            <a class="fs-6 nav-link page-scroll active" aria-current="page" href="/index.html">Home</a>
+            <a class="fs-6 nav-link page-scroll" href="#news">Berita</a>
+            <a class="fs-6 nav-link page-scroll" href="layanan.html">Layanan</a>
+            <a class="fs-6 nav-link page-scroll" href="/daftar.html">Antrian</a>
+            <a class="fs-6 nav-link page-scroll" href="#">Tentang Kami</a>
           </div>
         </div>
       </div>
     </nav>
     <section class="header" id="header">
       <div class="container">
-        <div class="row justify-content-between align-items-center">
-          <div class="col-lg-5">
+        <div class="row justify-content-between align-items-start">
+          <div class="col-lg-5 animation-element">
             <p class="color-primary">MPP Kota Cilegon</p>
             <h1 class="fw-bold">Selamat Datang Di MPP Kota Cilegon</h1>
             <p class="fs-6 text-muted"">Berbagai Layanan Dalam 1 Tempat</p>
             <a href="/daftar.html" class="btn btn-bg-primary">Daftar Online</a>
           </div>
-          <div class="col-lg-6 text-center">
+          <div class="col-lg-6 text-center animation-element">
             <img src="http://api.elements.buildwithangga.com/storage/files/2/assets/Header/Header4/Header-4-1.png" class="img-fluid" alt="...">
           </div>
         </div>
@@ -43,7 +43,7 @@
     </section>
     <section class="news py-5" id="news">
       <div class="container">
-        <div class="row mb-5">
+        <div class="row mb-5 animation-element">
           <div class="col-lg text-center">
             <h3 class="fw-bold">Berita Terbaru</h3>
             <p class="text-muted">Informasi Seputar MPP Kota Cilegon dan Kota Cilegon</p>
@@ -51,7 +51,7 @@
         </div>
         <div class="row">
           <div class="col-lg-8">
-            <div class="row d-flex flex-column gap-4">
+            <div class="row d-flex flex-column gap-4 animation-element">
               <div class="col-lg-12 d-flex card-news gap-4">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJEoYgNFEWYLpm8DbmVLxtQErM8lQbF2exSt49WoX_h-DM86nminKjJATMCNxobtJ4Msg&usqp=CAU" class="rounded" alt="..." width="30%">
                 <div class="card-body">
@@ -73,13 +73,13 @@
             </div>
           </div>
           <div class="col-lg-4 bg-grey py-3 px-3 d-flex flex-column gap-3 rounded">
-            <div class="row">
+            <div class="row animation-element">
               <div class="col-lg-12">
                 <h5 class="fw-bold">Recent Post</h5>
               </div>
             </div>
             <div class="row d-flex flex-column gap-4">
-              <div class="col-lg-12 d-flex card-news small gap-4">
+              <div class="col-lg-12 d-flex card-news small gap-4 animation-element">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJEoYgNFEWYLpm8DbmVLxtQErM8lQbF2exSt49WoX_h-DM86nminKjJATMCNxobtJ4Msg&usqp=CAU" class="rounded" alt="..." width="50%" height="80px">
                 <div class="card-body">
                  
@@ -88,7 +88,7 @@
                   <span class="text-muted">Carol Francis &#x2022; Juni, 22</span>
                 </div>
               </div>
-              <div class="col-lg-12 d-flex card-news small gap-4">
+              <div class="col-lg-12 d-flex card-news small gap-4 animation-element">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJEoYgNFEWYLpm8DbmVLxtQErM8lQbF2exSt49WoX_h-DM86nminKjJATMCNxobtJ4Msg&usqp=CAU" class="rounded" alt="..." width="50%" height="80px">
                 <div class="card-body">
                  
@@ -105,37 +105,37 @@
     <div class="row my-5">
     <hr>
     </div>
-    <section class="facility py-5" id="facility">
+    <section class="facility py-5 animation-element" id="facility">
       <div class="container">
         <div class="row mb-5">
-          <div class="col-lg text-center">
+          <div class="col-lg text-center animation-element">
             <h3 class="fw-bold">Fasilitas</h3>
             
           </div>
         </div>
         <div class="row">
-          <div class="card col-lg-3 border-0">
+          <div class="animation-element card col-lg-3 border-0">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfIhS_5XP1tN1H5etzPt72kR7W8kWHAFrhUDKQydrqZAoqU3EzvRYVwYvZn8VGwgE59Fg&usqp=CAU" class="card-img-top" alt="..." width="100%">
             <div class="card-body text-center">
               <h5 class="card-title">Mesin Antrian</h5>
               <p class="card-text f12 text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
-          <div class="card col-lg-3 border-0">
+          <div class="animation-element card col-lg-3 border-0">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfIhS_5XP1tN1H5etzPt72kR7W8kWHAFrhUDKQydrqZAoqU3EzvRYVwYvZn8VGwgE59Fg&usqp=CAU" class="card-img-top" alt="..." width="100%">
             <div class="card-body text-center">
               <h5 class="card-title">Mesin Antrian</h5>
               <p class="card-text f12 text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
-          <div class="card col-lg-3 border-0">
+          <div class="animation-element card col-lg-3 border-0">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfIhS_5XP1tN1H5etzPt72kR7W8kWHAFrhUDKQydrqZAoqU3EzvRYVwYvZn8VGwgE59Fg&usqp=CAU" class="card-img-top" alt="..." width="100%">
             <div class="card-body text-center">
               <h5 class="card-title">Mesin Antrian</h5>
               <p class="card-text f12 text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
-          <div class="card col-lg-3 border-0">
+          <div class="animation-element card col-lg-3 border-0">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfIhS_5XP1tN1H5etzPt72kR7W8kWHAFrhUDKQydrqZAoqU3EzvRYVwYvZn8VGwgE59Fg&usqp=CAU" class="card-img-top" alt="..." width="100%">
             <div class="card-body text-center">
               <h5 class="card-title">Mesin Antrian</h5>
@@ -147,34 +147,34 @@
     </section>
     <div class="row my-5">
       </div>
-    <section class="service bg-grey py-7" id="service">
+    <section class="service bg-grey py-7 animation-element" id="service">
       <div class="container">
         <div class="row mb-5">
-          <div class="col-lg text-center">
+          <div class="col-lg text-center animation-element">
             <h3 class="fw-bold">Layanan MPP Kota Cilegon</h3>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-3 border-0">
-            <div class="card-body text-center">
+            <div class="card-body text-center animation-element">
               <h2 class="card-title">21</h2>
               <p class="card-subtitle mb-2 text-body-secondary">INSTANSI</p>
             </div>
           </div>
           <div class="col-lg-3 border-0">
-            <div class="card-body text-center">
+            <div class="card-body text-center animation-element">
               <h2 class="card-title">84</h2>
               <p class="card-subtitle mb-2 text-body-secondary">LAYANAN</p>
             </div>
           </div>
           <div class="col-lg-3 border-0">
-            <div class="card-body text-center">
+            <div class="card-body text-center animation-element">
               <h2 class="card-title">21</h2>
               <p class="card-subtitle mb-2 text-body-secondary">LOKET</p>
             </div>
           </div>
           <div class="col-lg-3 border-0">
-            <div class="card-body text-center">
+            <div class="card-body text-center animation-element">
               <h2 class="card-title">1</h2>
               <p class="card-subtitle mb-2 text-body-secondary">POJOK BACA</p>
             </div>
@@ -252,5 +252,36 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+
+      $(document).ready(function () {
+        reveal();
+        $('.page-scroll').click(function (e) { 
+            reveal();
+        });
+      });
+      
+      function reveal(){
+
+        
+        var reveals = $('.animation-element');
+
+        for(var i = 0; i < reveals.length; i++){
+
+
+            var windowHeight = window.innerHeight;
+            var revealTop = reveals[i].getBoundingClientRect().top;
+            var revealPoint = 150;
+
+
+            if(revealTop < windowHeight - revealPoint){
+                reveals[i].classList.add('in-view-animate');
+            }else{
+                reveals[i].classList.remove('in-view-animate');
+            }
+        }
+      }
+    </script>
   </body>
 </html>

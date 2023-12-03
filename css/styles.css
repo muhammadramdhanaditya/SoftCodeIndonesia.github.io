@@ -8,6 +8,20 @@
   --color-dark: #6a6a6a;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+.animation-element.in-view-animate {
+  transform: translateY(0px);
+  opacity: 1 !important;
+}
+.animation-element {
+  position: relative !important;
+  transform: translateY(150px);
+  opacity: 0 !important;
+  transition: all 2s ease;
+}
+
 .form-label {
   margin-bottom: 0px !important;
 }
@@ -148,12 +162,12 @@ body {
 }
 
 .header {
-  height: 70vh;
+  height: 100vh;
 }
 
 .header > .container,
 .header > .container > .row {
-  height: 70vh;
+  height: 100vh;
 }
 
 .header h1 {
