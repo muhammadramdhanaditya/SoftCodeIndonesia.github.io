@@ -365,6 +365,19 @@ section::before {
   /* background-color: var(--black); */
 }
 
+.location {
+  margin-top: 100px;
+  position: relative;
+  min-height: 100vh;
+  /* background-color: var(--black); */
+}
+
+.location .row {
+  position: relative;
+  min-height: 100vh;
+  /* background-color: var(--black); */
+}
+
 .gallery img {
   width: 50%;
   height: 50%;
@@ -387,6 +400,18 @@ section::before {
   /* background-color: var(--black); */
 }
 
+.gift {
+  position: relative;
+  min-height: 100vh;
+  /* background-color: var(--black); */
+}
+
+.gift row {
+  position: relative;
+  min-height: 100vh;
+  /* background-color: var(--black); */
+}
+
 .closing h2 {
   font-family: "Italianno", cursive;
   font-size: 4rem;
@@ -395,6 +420,34 @@ section::before {
 .closing h6 {
   font-family: "Italianno", cursive;
   font-size: 2rem;
+}
+
+.audio-icon-wrapper {
+  width: 4rem;
+  height: 4rem;
+  font-size: 4rem;
+  position: fixed;
+  bottom: 2.5rem;
+  right: 2rem;
+  cursor: pointer;
+  color: white;
+  opacity: 0.5;
+  mix-blend-mode: difference;
+  animation: rotating 4s linear infinite;
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* Media Query */
@@ -534,14 +587,14 @@ section::before {
     animation: playLeftToRight 1.5s linear infinite;
     width: 40%;
   }
-  .acara .img-header .left {
+  /* .acara .img-header .left {
     width: 40%;
     animation: playRightToLeft 1.5s linear infinite;
   }
   .acara .img-header .right {
     animation: playLeftToRight 1.5s linear infinite;
     width: 40%;
-  }
+  } */
 
   .gallery .img-header .left {
     width: 40%;
